@@ -260,6 +260,18 @@
 		"AzureDataLakeStorage46_accountKey": {
 			"value": ""
 		},
+		"AzureDataLakeStorage47_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage48_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage49_accountKey": {
+			"value": ""
+		},
+		"AzureBlobStorage5_connectionString": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://adlsdevbulkload.dfs.core.windows.net/"
 		},
@@ -634,6 +646,15 @@
 		},
 		"trigger1_properties_typeProperties_scope": {
 			"value": "/subscriptions/ebf9de76-97ab-4029-b09a-0e5b73edc314/resourceGroups/rgdevdemodata/providers/Microsoft.Storage/storageAccounts/eventstorage0099"
+		},
+		"AzureDataLakeStorage47_properties_typeProperties_url": {
+			"value": "https://adlsbulkupload.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage48_properties_typeProperties_url": {
+			"value": "https://adlsbulkupload.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage49_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkload.dfs.core.windows.net/"
 		}
 	}
 }
