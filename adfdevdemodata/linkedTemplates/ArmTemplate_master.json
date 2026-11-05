@@ -139,9 +139,37 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage38'"
 		},
+		"AzureDataLakeStorage39_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage39'"
+		},
 		"AzureDataLakeStorage4_accountKey": {
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage4'"
+		},
+		"AzureDataLakeStorage40_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage40'"
+		},
+		"AzureDataLakeStorage41_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage41'"
+		},
+		"AzureDataLakeStorage42_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage42'"
+		},
+		"AzureDataLakeStorage43_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage43'"
+		},
+		"AzureDataLakeStorage44_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage44'"
+		},
+		"AzureDataLakeStorage45_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage45'"
 		},
 		"AzureDataLakeStorage5_accountKey": {
 			"type": "secureString",
@@ -167,6 +195,18 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accessToken' of 'AzureDatabricks1'"
 		},
+		"AzureDatabricks2_accessToken": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accessToken' of 'AzureDatabricks2'"
+		},
+		"DS_SQLSERVER_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'DS_SQLSERVER'"
+		},
+		"LS_ADLSCSV_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'LS_ADLSCSV'"
+		},
 		"LS_ADLS_CSVFILES_accountKey": {
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'LS_ADLS_CSVFILES'"
@@ -187,13 +227,25 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'LS_MULTIPLEFILES'"
 		},
+		"LS_SQLERVER_DB_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'LS_SQLERVER_DB'"
+		},
 		"LS_SQLSERVER_password": {
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'LS_SQLSERVER'"
 		},
+		"LS_SQLSERVERDUN_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'LS_SQLSERVERDUN'"
+		},
 		"LS_SQL_ADLS_password": {
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'LS_SQL_ADLS'"
+		},
+		"LS_SQL_ADLSSINK_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'LS_SQL_ADLSSINK'"
 		},
 		"LS_SQL_DATA_password": {
 			"type": "secureString",
@@ -202,6 +254,10 @@
 		"LS_SqlServerTable_password": {
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'LS_SqlServerTable'"
+		},
+		"SapEcc1_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'SapEcc1'"
 		},
 		"SqlServer1_password": {
 			"type": "secureString",
@@ -218,6 +274,14 @@
 		"SqlServer12_password": {
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'SqlServer12'"
+		},
+		"SqlServer13_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'SqlServer13'"
+		},
+		"SqlServer14_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'SqlServer14'"
 		},
 		"SqlServer2_password": {
 			"type": "secureString",
@@ -251,6 +315,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'SqlServer9'"
 		},
+		"linkedService1_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'linkedService1'"
+		},
 		"ls_csv_adlsdevbank001_accountKey": {
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'ls_csv_adlsdevbank001'"
@@ -262,6 +330,22 @@
 		"ls_multifiles_csv_accountKey": {
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'ls_multifiles_csv'"
+		},
+		"AzureBlobStorage2_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage2'"
+		},
+		"AzureBlobStorage3_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage3'"
+		},
+		"AzureBlobStorage4_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage4'"
+		},
+		"AzureDataLakeStorage46_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage46'"
 		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"type": "string",
@@ -391,9 +475,37 @@
 			"type": "string",
 			"defaultValue": "https://adlsdevbulkload.dfs.core.windows.net/"
 		},
+		"AzureDataLakeStorage39_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://adlsdevbank001.dfs.core.windows.net/"
+		},
 		"AzureDataLakeStorage4_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://adlsdevbank001.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage40_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://adlsdevbank001.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage41_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://adlsdevbulkload.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage42_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://adlsbulkupload.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage43_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://adlsdevbulkload.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage44_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://adlsdevbulkload.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage45_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://adlsdevbulkload.dfs.core.windows.net/"
 		},
 		"AzureDataLakeStorage5_properties_typeProperties_url": {
 			"type": "string",
@@ -412,6 +524,22 @@
 			"defaultValue": "https://adlsdevbank001.dfs.core.windows.net/"
 		},
 		"AzureDataLakeStorage9_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://adlsdevbulkload.dfs.core.windows.net/"
+		},
+		"DS_SQLSERVER_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "LAPTOP-MHJP2LVG\\SQLEXPRESS"
+		},
+		"DS_SQLSERVER_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "AdventureWorks2019"
+		},
+		"DS_SQLSERVER_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "visionboard"
+		},
+		"LS_ADLSCSV_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://adlsdevbulkload.dfs.core.windows.net/"
 		},
@@ -435,6 +563,22 @@
 			"type": "string",
 			"defaultValue": "https://adlsdevbulkload.dfs.core.windows.net/"
 		},
+		"LS_RESTAPI_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://retoolapi.dev/5yDVOt/data"
+		},
+		"LS_SQLERVER_DB_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "LAPTOP-MHJP2LVG\\SQLEXPRESS"
+		},
+		"LS_SQLERVER_DB_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "AdventureWorks2019"
+		},
+		"LS_SQLERVER_DB_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "visionboard"
+		},
 		"LS_SQLSERVER_properties_typeProperties_server": {
 			"type": "string",
 			"defaultValue": "LAPTOP-MHJP2LVG\\SQLEXPRESS"
@@ -444,6 +588,18 @@
 			"defaultValue": "customerdb3"
 		},
 		"LS_SQLSERVER_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "visionboard"
+		},
+		"LS_SQLSERVERDUN_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "LAPTOP-MHJP2LVG\\SQLEXPRESS"
+		},
+		"LS_SQLSERVERDUN_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "AdventureWorks2019"
+		},
+		"LS_SQLSERVERDUN_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "visionboard"
 		},
@@ -458,6 +614,10 @@
 		"LS_SQL_ADLS_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "visionboard"
+		},
+		"LS_SQL_ADLSSINK_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://adlsdevbank001.dfs.core.windows.net/"
 		},
 		"LS_SQL_DATA_properties_typeProperties_server": {
 			"type": "string",
@@ -482,6 +642,14 @@
 		"LS_SqlServerTable_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "visionboard"
+		},
+		"SapEcc1_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "httptdata"
+		},
+		"SapEcc1_properties_typeProperties_username": {
+			"type": "string",
+			"defaultValue": "sa"
 		},
 		"SqlServer1_properties_typeProperties_server": {
 			"type": "string",
@@ -528,6 +696,30 @@
 			"defaultValue": "AdventureWorks2019"
 		},
 		"SqlServer12_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "visionboard"
+		},
+		"SqlServer13_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "LAPTOP-MHJP2LVG\\SQLEXPRESS"
+		},
+		"SqlServer13_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "AdventureWorks2019"
+		},
+		"SqlServer13_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "visionboard"
+		},
+		"SqlServer14_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "LAPTOP-MHJP2LVG\\SQLEXPRESS"
+		},
+		"SqlServer14_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "master"
+		},
+		"SqlServer14_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "visionboard"
 		},
@@ -627,6 +819,10 @@
 			"type": "string",
 			"defaultValue": "visionboard"
 		},
+		"linkedService1_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://adlsbulkupload.dfs.core.windows.net/"
+		},
 		"ls_csv_adlsdevbank001_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://adlsdevbank001.dfs.core.windows.net/"
@@ -642,6 +838,14 @@
 		"EVENTTRIGGER_MANUALCSV_properties_typeProperties_scope": {
 			"type": "string",
 			"defaultValue": "/subscriptions/ebf9de76-97ab-4029-b09a-0e5b73edc314/resourceGroups/rgdevdemodata/providers/Microsoft.Storage/storageAccounts/adlsdevbulkload"
+		},
+		"AzureDataLakeStorage46_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://adlsdevbulkload.dfs.core.windows.net/"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"type": "string",
+			"defaultValue": "/subscriptions/ebf9de76-97ab-4029-b09a-0e5b73edc314/resourceGroups/rgdevdemodata/providers/Microsoft.Storage/storageAccounts/eventstorage0099"
 		},
 		"containerUri": {
 			"type": "string",
@@ -841,23 +1045,23 @@
 					"AzureDataLakeStorage38_accountKey": {
 						"value": "[parameters('AzureDataLakeStorage38_accountKey')]"
 					},
+					"AzureDataLakeStorage39_accountKey": {
+						"value": "[parameters('AzureDataLakeStorage39_accountKey')]"
+					},
 					"AzureDataLakeStorage4_accountKey": {
 						"value": "[parameters('AzureDataLakeStorage4_accountKey')]"
 					},
-					"AzureDataLakeStorage5_accountKey": {
-						"value": "[parameters('AzureDataLakeStorage5_accountKey')]"
+					"AzureDataLakeStorage40_accountKey": {
+						"value": "[parameters('AzureDataLakeStorage40_accountKey')]"
 					},
-					"AzureDataLakeStorage6_accountKey": {
-						"value": "[parameters('AzureDataLakeStorage6_accountKey')]"
+					"AzureDataLakeStorage41_accountKey": {
+						"value": "[parameters('AzureDataLakeStorage41_accountKey')]"
 					},
-					"AzureDataLakeStorage7_accountKey": {
-						"value": "[parameters('AzureDataLakeStorage7_accountKey')]"
+					"AzureDataLakeStorage42_accountKey": {
+						"value": "[parameters('AzureDataLakeStorage42_accountKey')]"
 					},
-					"AzureDataLakeStorage8_accountKey": {
-						"value": "[parameters('AzureDataLakeStorage8_accountKey')]"
-					},
-					"AzureDataLakeStorage9_accountKey": {
-						"value": "[parameters('AzureDataLakeStorage9_accountKey')]"
+					"AzureDataLakeStorage43_accountKey": {
+						"value": "[parameters('AzureDataLakeStorage43_accountKey')]"
 					},
 					"AzureDataLakeStorage26_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage26_properties_typeProperties_url')]"
@@ -901,23 +1105,23 @@
 					"AzureDataLakeStorage38_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage38_properties_typeProperties_url')]"
 					},
+					"AzureDataLakeStorage39_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStorage39_properties_typeProperties_url')]"
+					},
 					"AzureDataLakeStorage4_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage4_properties_typeProperties_url')]"
 					},
-					"AzureDataLakeStorage5_properties_typeProperties_url": {
-						"value": "[parameters('AzureDataLakeStorage5_properties_typeProperties_url')]"
+					"AzureDataLakeStorage40_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStorage40_properties_typeProperties_url')]"
 					},
-					"AzureDataLakeStorage6_properties_typeProperties_url": {
-						"value": "[parameters('AzureDataLakeStorage6_properties_typeProperties_url')]"
+					"AzureDataLakeStorage41_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStorage41_properties_typeProperties_url')]"
 					},
-					"AzureDataLakeStorage7_properties_typeProperties_url": {
-						"value": "[parameters('AzureDataLakeStorage7_properties_typeProperties_url')]"
+					"AzureDataLakeStorage42_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStorage42_properties_typeProperties_url')]"
 					},
-					"AzureDataLakeStorage8_properties_typeProperties_url": {
-						"value": "[parameters('AzureDataLakeStorage8_properties_typeProperties_url')]"
-					},
-					"AzureDataLakeStorage9_properties_typeProperties_url": {
-						"value": "[parameters('AzureDataLakeStorage9_properties_typeProperties_url')]"
+					"AzureDataLakeStorage43_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStorage43_properties_typeProperties_url')]"
 					}
 				}
 			},
@@ -939,8 +1143,35 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
+					"AzureDataLakeStorage44_accountKey": {
+						"value": "[parameters('AzureDataLakeStorage44_accountKey')]"
+					},
+					"AzureDataLakeStorage45_accountKey": {
+						"value": "[parameters('AzureDataLakeStorage45_accountKey')]"
+					},
+					"AzureDataLakeStorage5_accountKey": {
+						"value": "[parameters('AzureDataLakeStorage5_accountKey')]"
+					},
+					"AzureDataLakeStorage6_accountKey": {
+						"value": "[parameters('AzureDataLakeStorage6_accountKey')]"
+					},
+					"AzureDataLakeStorage7_accountKey": {
+						"value": "[parameters('AzureDataLakeStorage7_accountKey')]"
+					},
+					"AzureDataLakeStorage8_accountKey": {
+						"value": "[parameters('AzureDataLakeStorage8_accountKey')]"
+					},
+					"AzureDataLakeStorage9_accountKey": {
+						"value": "[parameters('AzureDataLakeStorage9_accountKey')]"
+					},
 					"AzureDatabricks1_accessToken": {
 						"value": "[parameters('AzureDatabricks1_accessToken')]"
+					},
+					"AzureDatabricks2_accessToken": {
+						"value": "[parameters('AzureDatabricks2_accessToken')]"
+					},
+					"LS_ADLSCSV_accountKey": {
+						"value": "[parameters('LS_ADLSCSV_accountKey')]"
 					},
 					"LS_ADLS_CSVFILES_accountKey": {
 						"value": "[parameters('LS_ADLS_CSVFILES_accountKey')]"
@@ -957,32 +1188,41 @@
 					"LS_MULTIPLEFILES_accountKey": {
 						"value": "[parameters('LS_MULTIPLEFILES_accountKey')]"
 					},
+					"LS_SQL_ADLSSINK_accountKey": {
+						"value": "[parameters('LS_SQL_ADLSSINK_accountKey')]"
+					},
+					"SapEcc1_password": {
+						"value": "[parameters('SapEcc1_password')]"
+					},
+					"linkedService1_accountKey": {
+						"value": "[parameters('linkedService1_accountKey')]"
+					},
 					"ls_csv_adlsdevbank001_accountKey": {
 						"value": "[parameters('ls_csv_adlsdevbank001_accountKey')]"
 					},
-					"ls_emptydatacheckcsv_accountKey": {
-						"value": "[parameters('ls_emptydatacheckcsv_accountKey')]"
+					"AzureDataLakeStorage44_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStorage44_properties_typeProperties_url')]"
 					},
-					"ls_multifiles_csv_accountKey": {
-						"value": "[parameters('ls_multifiles_csv_accountKey')]"
+					"AzureDataLakeStorage45_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStorage45_properties_typeProperties_url')]"
 					},
-					"LS_SQLSERVER_password": {
-						"value": "[parameters('LS_SQLSERVER_password')]"
+					"AzureDataLakeStorage5_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStorage5_properties_typeProperties_url')]"
 					},
-					"LS_SQL_ADLS_password": {
-						"value": "[parameters('LS_SQL_ADLS_password')]"
+					"AzureDataLakeStorage6_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStorage6_properties_typeProperties_url')]"
 					},
-					"LS_SQL_DATA_password": {
-						"value": "[parameters('LS_SQL_DATA_password')]"
+					"AzureDataLakeStorage7_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStorage7_properties_typeProperties_url')]"
 					},
-					"LS_SqlServerTable_password": {
-						"value": "[parameters('LS_SqlServerTable_password')]"
+					"AzureDataLakeStorage8_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStorage8_properties_typeProperties_url')]"
 					},
-					"SqlServer1_password": {
-						"value": "[parameters('SqlServer1_password')]"
+					"AzureDataLakeStorage9_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStorage9_properties_typeProperties_url')]"
 					},
-					"SqlServer10_password": {
-						"value": "[parameters('SqlServer10_password')]"
+					"LS_ADLSCSV_properties_typeProperties_url": {
+						"value": "[parameters('LS_ADLSCSV_properties_typeProperties_url')]"
 					},
 					"LS_ADLS_CSVFILES_properties_typeProperties_url": {
 						"value": "[parameters('LS_ADLS_CSVFILES_properties_typeProperties_url')]"
@@ -999,14 +1239,109 @@
 					"LS_MULTIPLEFILES_properties_typeProperties_url": {
 						"value": "[parameters('LS_MULTIPLEFILES_properties_typeProperties_url')]"
 					},
+					"LS_RESTAPI_properties_typeProperties_url": {
+						"value": "[parameters('LS_RESTAPI_properties_typeProperties_url')]"
+					},
+					"LS_SQL_ADLSSINK_properties_typeProperties_url": {
+						"value": "[parameters('LS_SQL_ADLSSINK_properties_typeProperties_url')]"
+					},
+					"SapEcc1_properties_typeProperties_url": {
+						"value": "[parameters('SapEcc1_properties_typeProperties_url')]"
+					},
+					"SapEcc1_properties_typeProperties_username": {
+						"value": "[parameters('SapEcc1_properties_typeProperties_username')]"
+					},
+					"linkedService1_properties_typeProperties_url": {
+						"value": "[parameters('linkedService1_properties_typeProperties_url')]"
+					},
 					"ls_csv_adlsdevbank001_properties_typeProperties_url": {
 						"value": "[parameters('ls_csv_adlsdevbank001_properties_typeProperties_url')]"
+					}
+				}
+			},
+			"dependsOn": [
+				"[resourceId('Microsoft.Resources/deployments', 'adfdevdemodata_ArmTemplate_1')]"
+			]
+		},
+		{
+			"name": "adfdevdemodata_ArmTemplate_3",
+			"type": "Microsoft.Resources/deployments",
+			"apiVersion": "2024-03-01",
+			"properties": {
+				"mode": "incremental",
+				"templateLink": {
+					"uri": "[concat(parameters('containerUri'), '/ArmTemplate_3.json', parameters('containerSasToken'))]",
+					"contentVersion": "1.0.0.0"
+				},
+				"parameters": {
+					"factoryName": {
+						"value": "[parameters('factoryName')]"
+					},
+					"ls_emptydatacheckcsv_accountKey": {
+						"value": "[parameters('ls_emptydatacheckcsv_accountKey')]"
+					},
+					"ls_multifiles_csv_accountKey": {
+						"value": "[parameters('ls_multifiles_csv_accountKey')]"
+					},
+					"AzureBlobStorage2_connectionString": {
+						"value": "[parameters('AzureBlobStorage2_connectionString')]"
+					},
+					"AzureBlobStorage3_connectionString": {
+						"value": "[parameters('AzureBlobStorage3_connectionString')]"
+					},
+					"AzureBlobStorage4_connectionString": {
+						"value": "[parameters('AzureBlobStorage4_connectionString')]"
+					},
+					"AzureDataLakeStorage46_accountKey": {
+						"value": "[parameters('AzureDataLakeStorage46_accountKey')]"
+					},
+					"DS_SQLSERVER_password": {
+						"value": "[parameters('DS_SQLSERVER_password')]"
+					},
+					"LS_SQLERVER_DB_password": {
+						"value": "[parameters('LS_SQLERVER_DB_password')]"
+					},
+					"LS_SQLSERVER_password": {
+						"value": "[parameters('LS_SQLSERVER_password')]"
+					},
+					"LS_SQLSERVERDUN_password": {
+						"value": "[parameters('LS_SQLSERVERDUN_password')]"
+					},
+					"LS_SQL_ADLS_password": {
+						"value": "[parameters('LS_SQL_ADLS_password')]"
+					},
+					"LS_SQL_DATA_password": {
+						"value": "[parameters('LS_SQL_DATA_password')]"
+					},
+					"LS_SqlServerTable_password": {
+						"value": "[parameters('LS_SqlServerTable_password')]"
 					},
 					"ls_emptydatacheckcsv_properties_typeProperties_url": {
 						"value": "[parameters('ls_emptydatacheckcsv_properties_typeProperties_url')]"
 					},
 					"ls_multifiles_csv_properties_typeProperties_url": {
 						"value": "[parameters('ls_multifiles_csv_properties_typeProperties_url')]"
+					},
+					"AzureDataLakeStorage46_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStorage46_properties_typeProperties_url')]"
+					},
+					"DS_SQLSERVER_properties_typeProperties_server": {
+						"value": "[parameters('DS_SQLSERVER_properties_typeProperties_server')]"
+					},
+					"DS_SQLSERVER_properties_typeProperties_database": {
+						"value": "[parameters('DS_SQLSERVER_properties_typeProperties_database')]"
+					},
+					"DS_SQLSERVER_properties_typeProperties_userName": {
+						"value": "[parameters('DS_SQLSERVER_properties_typeProperties_userName')]"
+					},
+					"LS_SQLERVER_DB_properties_typeProperties_server": {
+						"value": "[parameters('LS_SQLERVER_DB_properties_typeProperties_server')]"
+					},
+					"LS_SQLERVER_DB_properties_typeProperties_database": {
+						"value": "[parameters('LS_SQLERVER_DB_properties_typeProperties_database')]"
+					},
+					"LS_SQLERVER_DB_properties_typeProperties_userName": {
+						"value": "[parameters('LS_SQLERVER_DB_properties_typeProperties_userName')]"
 					},
 					"LS_SQLSERVER_properties_typeProperties_server": {
 						"value": "[parameters('LS_SQLSERVER_properties_typeProperties_server')]"
@@ -1016,6 +1351,15 @@
 					},
 					"LS_SQLSERVER_properties_typeProperties_userName": {
 						"value": "[parameters('LS_SQLSERVER_properties_typeProperties_userName')]"
+					},
+					"LS_SQLSERVERDUN_properties_typeProperties_server": {
+						"value": "[parameters('LS_SQLSERVERDUN_properties_typeProperties_server')]"
+					},
+					"LS_SQLSERVERDUN_properties_typeProperties_database": {
+						"value": "[parameters('LS_SQLSERVERDUN_properties_typeProperties_database')]"
+					},
+					"LS_SQLSERVERDUN_properties_typeProperties_userName": {
+						"value": "[parameters('LS_SQLSERVERDUN_properties_typeProperties_userName')]"
 					},
 					"LS_SQL_ADLS_properties_typeProperties_server": {
 						"value": "[parameters('LS_SQL_ADLS_properties_typeProperties_server')]"
@@ -1043,50 +1387,44 @@
 					},
 					"LS_SqlServerTable_properties_typeProperties_userName": {
 						"value": "[parameters('LS_SqlServerTable_properties_typeProperties_userName')]"
-					},
-					"SqlServer1_properties_typeProperties_server": {
-						"value": "[parameters('SqlServer1_properties_typeProperties_server')]"
-					},
-					"SqlServer1_properties_typeProperties_database": {
-						"value": "[parameters('SqlServer1_properties_typeProperties_database')]"
-					},
-					"SqlServer1_properties_typeProperties_userName": {
-						"value": "[parameters('SqlServer1_properties_typeProperties_userName')]"
-					},
-					"SqlServer10_properties_typeProperties_server": {
-						"value": "[parameters('SqlServer10_properties_typeProperties_server')]"
-					},
-					"SqlServer10_properties_typeProperties_database": {
-						"value": "[parameters('SqlServer10_properties_typeProperties_database')]"
-					},
-					"SqlServer10_properties_typeProperties_userName": {
-						"value": "[parameters('SqlServer10_properties_typeProperties_userName')]"
 					}
 				}
 			},
 			"dependsOn": [
-				"[resourceId('Microsoft.Resources/deployments', 'adfdevdemodata_ArmTemplate_1')]"
+				"[resourceId('Microsoft.Resources/deployments', 'adfdevdemodata_ArmTemplate_2')]"
 			]
 		},
 		{
-			"name": "adfdevdemodata_ArmTemplate_3",
+			"name": "adfdevdemodata_ArmTemplate_4",
 			"type": "Microsoft.Resources/deployments",
 			"apiVersion": "2024-03-01",
 			"properties": {
 				"mode": "incremental",
 				"templateLink": {
-					"uri": "[concat(parameters('containerUri'), '/ArmTemplate_3.json', parameters('containerSasToken'))]",
+					"uri": "[concat(parameters('containerUri'), '/ArmTemplate_4.json', parameters('containerSasToken'))]",
 					"contentVersion": "1.0.0.0"
 				},
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
+					"SqlServer1_password": {
+						"value": "[parameters('SqlServer1_password')]"
+					},
+					"SqlServer10_password": {
+						"value": "[parameters('SqlServer10_password')]"
+					},
 					"SqlServer11_password": {
 						"value": "[parameters('SqlServer11_password')]"
 					},
 					"SqlServer12_password": {
 						"value": "[parameters('SqlServer12_password')]"
+					},
+					"SqlServer13_password": {
+						"value": "[parameters('SqlServer13_password')]"
+					},
+					"SqlServer14_password": {
+						"value": "[parameters('SqlServer14_password')]"
 					},
 					"SqlServer2_password": {
 						"value": "[parameters('SqlServer2_password')]"
@@ -1112,6 +1450,24 @@
 					"SqlServer9_password": {
 						"value": "[parameters('SqlServer9_password')]"
 					},
+					"SqlServer1_properties_typeProperties_server": {
+						"value": "[parameters('SqlServer1_properties_typeProperties_server')]"
+					},
+					"SqlServer1_properties_typeProperties_database": {
+						"value": "[parameters('SqlServer1_properties_typeProperties_database')]"
+					},
+					"SqlServer1_properties_typeProperties_userName": {
+						"value": "[parameters('SqlServer1_properties_typeProperties_userName')]"
+					},
+					"SqlServer10_properties_typeProperties_server": {
+						"value": "[parameters('SqlServer10_properties_typeProperties_server')]"
+					},
+					"SqlServer10_properties_typeProperties_database": {
+						"value": "[parameters('SqlServer10_properties_typeProperties_database')]"
+					},
+					"SqlServer10_properties_typeProperties_userName": {
+						"value": "[parameters('SqlServer10_properties_typeProperties_userName')]"
+					},
 					"SqlServer11_properties_typeProperties_server": {
 						"value": "[parameters('SqlServer11_properties_typeProperties_server')]"
 					},
@@ -1129,6 +1485,24 @@
 					},
 					"SqlServer12_properties_typeProperties_userName": {
 						"value": "[parameters('SqlServer12_properties_typeProperties_userName')]"
+					},
+					"SqlServer13_properties_typeProperties_server": {
+						"value": "[parameters('SqlServer13_properties_typeProperties_server')]"
+					},
+					"SqlServer13_properties_typeProperties_database": {
+						"value": "[parameters('SqlServer13_properties_typeProperties_database')]"
+					},
+					"SqlServer13_properties_typeProperties_userName": {
+						"value": "[parameters('SqlServer13_properties_typeProperties_userName')]"
+					},
+					"SqlServer14_properties_typeProperties_server": {
+						"value": "[parameters('SqlServer14_properties_typeProperties_server')]"
+					},
+					"SqlServer14_properties_typeProperties_database": {
+						"value": "[parameters('SqlServer14_properties_typeProperties_database')]"
+					},
+					"SqlServer14_properties_typeProperties_userName": {
+						"value": "[parameters('SqlServer14_properties_typeProperties_userName')]"
 					},
 					"SqlServer2_properties_typeProperties_server": {
 						"value": "[parameters('SqlServer2_properties_typeProperties_server')]"
@@ -1204,11 +1578,14 @@
 					},
 					"EVENTTRIGGER_MANUALCSV_properties_typeProperties_scope": {
 						"value": "[parameters('EVENTTRIGGER_MANUALCSV_properties_typeProperties_scope')]"
+					},
+					"trigger1_properties_typeProperties_scope": {
+						"value": "[parameters('trigger1_properties_typeProperties_scope')]"
 					}
 				}
 			},
 			"dependsOn": [
-				"[resourceId('Microsoft.Resources/deployments', 'adfdevdemodata_ArmTemplate_2')]"
+				"[resourceId('Microsoft.Resources/deployments', 'adfdevdemodata_ArmTemplate_3')]"
 			]
 		}
 	]

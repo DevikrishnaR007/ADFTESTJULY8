@@ -63,29 +63,29 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage38'"
 		},
+		"AzureDataLakeStorage39_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage39'"
+		},
 		"AzureDataLakeStorage4_accountKey": {
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage4'"
 		},
-		"AzureDataLakeStorage5_accountKey": {
+		"AzureDataLakeStorage40_accountKey": {
 			"type": "secureString",
-			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage5'"
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage40'"
 		},
-		"AzureDataLakeStorage6_accountKey": {
+		"AzureDataLakeStorage41_accountKey": {
 			"type": "secureString",
-			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage6'"
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage41'"
 		},
-		"AzureDataLakeStorage7_accountKey": {
+		"AzureDataLakeStorage42_accountKey": {
 			"type": "secureString",
-			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage7'"
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage42'"
 		},
-		"AzureDataLakeStorage8_accountKey": {
+		"AzureDataLakeStorage43_accountKey": {
 			"type": "secureString",
-			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage8'"
-		},
-		"AzureDataLakeStorage9_accountKey": {
-			"type": "secureString",
-			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage9'"
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage43'"
 		},
 		"AzureDataLakeStorage26_properties_typeProperties_url": {
 			"type": "string",
@@ -143,27 +143,27 @@
 			"type": "string",
 			"defaultValue": "https://adlsdevbulkload.dfs.core.windows.net/"
 		},
+		"AzureDataLakeStorage39_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://adlsdevbank001.dfs.core.windows.net/"
+		},
 		"AzureDataLakeStorage4_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://adlsdevbank001.dfs.core.windows.net/"
 		},
-		"AzureDataLakeStorage5_properties_typeProperties_url": {
-			"type": "string",
-			"defaultValue": "https://adlsbulkupload.dfs.core.windows.net/"
-		},
-		"AzureDataLakeStorage6_properties_typeProperties_url": {
+		"AzureDataLakeStorage40_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://adlsdevbank001.dfs.core.windows.net/"
 		},
-		"AzureDataLakeStorage7_properties_typeProperties_url": {
+		"AzureDataLakeStorage41_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://adlsdevbulkload.dfs.core.windows.net/"
 		},
-		"AzureDataLakeStorage8_properties_typeProperties_url": {
+		"AzureDataLakeStorage42_properties_typeProperties_url": {
 			"type": "string",
-			"defaultValue": "https://adlsdevbank001.dfs.core.windows.net/"
+			"defaultValue": "https://adlsbulkupload.dfs.core.windows.net/"
 		},
-		"AzureDataLakeStorage9_properties_typeProperties_url": {
+		"AzureDataLakeStorage43_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://adlsdevbulkload.dfs.core.windows.net/"
 		}
@@ -411,6 +411,23 @@
 			"dependsOn": []
 		},
 		{
+			"name": "[concat(parameters('factoryName'), '/AzureDataLakeStorage39')]",
+			"type": "Microsoft.DataFactory/factories/linkedServices",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"annotations": [],
+				"type": "AzureBlobFS",
+				"typeProperties": {
+					"url": "[parameters('AzureDataLakeStorage39_properties_typeProperties_url')]",
+					"accountKey": {
+						"type": "SecureString",
+						"value": "[parameters('AzureDataLakeStorage39_accountKey')]"
+					}
+				}
+			},
+			"dependsOn": []
+		},
+		{
 			"name": "[concat(parameters('factoryName'), '/AzureDataLakeStorage4')]",
 			"type": "Microsoft.DataFactory/factories/linkedServices",
 			"apiVersion": "2018-06-01",
@@ -428,85 +445,68 @@
 			"dependsOn": []
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/AzureDataLakeStorage5')]",
+			"name": "[concat(parameters('factoryName'), '/AzureDataLakeStorage40')]",
 			"type": "Microsoft.DataFactory/factories/linkedServices",
 			"apiVersion": "2018-06-01",
 			"properties": {
 				"annotations": [],
 				"type": "AzureBlobFS",
 				"typeProperties": {
-					"url": "[parameters('AzureDataLakeStorage5_properties_typeProperties_url')]",
+					"url": "[parameters('AzureDataLakeStorage40_properties_typeProperties_url')]",
 					"accountKey": {
 						"type": "SecureString",
-						"value": "[parameters('AzureDataLakeStorage5_accountKey')]"
+						"value": "[parameters('AzureDataLakeStorage40_accountKey')]"
 					}
 				}
 			},
 			"dependsOn": []
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/AzureDataLakeStorage6')]",
+			"name": "[concat(parameters('factoryName'), '/AzureDataLakeStorage41')]",
 			"type": "Microsoft.DataFactory/factories/linkedServices",
 			"apiVersion": "2018-06-01",
 			"properties": {
 				"annotations": [],
 				"type": "AzureBlobFS",
 				"typeProperties": {
-					"url": "[parameters('AzureDataLakeStorage6_properties_typeProperties_url')]",
+					"url": "[parameters('AzureDataLakeStorage41_properties_typeProperties_url')]",
 					"accountKey": {
 						"type": "SecureString",
-						"value": "[parameters('AzureDataLakeStorage6_accountKey')]"
+						"value": "[parameters('AzureDataLakeStorage41_accountKey')]"
 					}
 				}
 			},
 			"dependsOn": []
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/AzureDataLakeStorage7')]",
+			"name": "[concat(parameters('factoryName'), '/AzureDataLakeStorage42')]",
 			"type": "Microsoft.DataFactory/factories/linkedServices",
 			"apiVersion": "2018-06-01",
 			"properties": {
 				"annotations": [],
 				"type": "AzureBlobFS",
 				"typeProperties": {
-					"url": "[parameters('AzureDataLakeStorage7_properties_typeProperties_url')]",
+					"url": "[parameters('AzureDataLakeStorage42_properties_typeProperties_url')]",
 					"accountKey": {
 						"type": "SecureString",
-						"value": "[parameters('AzureDataLakeStorage7_accountKey')]"
+						"value": "[parameters('AzureDataLakeStorage42_accountKey')]"
 					}
 				}
 			},
 			"dependsOn": []
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/AzureDataLakeStorage8')]",
+			"name": "[concat(parameters('factoryName'), '/AzureDataLakeStorage43')]",
 			"type": "Microsoft.DataFactory/factories/linkedServices",
 			"apiVersion": "2018-06-01",
 			"properties": {
 				"annotations": [],
 				"type": "AzureBlobFS",
 				"typeProperties": {
-					"url": "[parameters('AzureDataLakeStorage8_properties_typeProperties_url')]",
+					"url": "[parameters('AzureDataLakeStorage43_properties_typeProperties_url')]",
 					"accountKey": {
 						"type": "SecureString",
-						"value": "[parameters('AzureDataLakeStorage8_accountKey')]"
-					}
-				}
-			},
-			"dependsOn": []
-		},
-		{
-			"name": "[concat(parameters('factoryName'), '/AzureDataLakeStorage9')]",
-			"type": "Microsoft.DataFactory/factories/linkedServices",
-			"apiVersion": "2018-06-01",
-			"properties": {
-				"annotations": [],
-				"type": "AzureBlobFS",
-				"typeProperties": {
-					"url": "[parameters('AzureDataLakeStorage9_properties_typeProperties_url')]",
-					"accountKey": {
-						"type": "SecureString",
-						"value": "[parameters('AzureDataLakeStorage9_accountKey')]"
+						"value": "[parameters('AzureDataLakeStorage43_accountKey')]"
 					}
 				}
 			},

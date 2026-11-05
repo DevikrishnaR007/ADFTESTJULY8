@@ -7,169 +7,153 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "adfdevdemodata"
 		},
-		"SqlServer11_password": {
+		"ls_emptydatacheckcsv_accountKey": {
 			"type": "secureString",
-			"metadata": "Secure string for 'password' of 'SqlServer11'"
+			"metadata": "Secure string for 'accountKey' of 'ls_emptydatacheckcsv'"
 		},
-		"SqlServer12_password": {
+		"ls_multifiles_csv_accountKey": {
 			"type": "secureString",
-			"metadata": "Secure string for 'password' of 'SqlServer12'"
+			"metadata": "Secure string for 'accountKey' of 'ls_multifiles_csv'"
 		},
-		"SqlServer2_password": {
+		"AzureBlobStorage2_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'password' of 'SqlServer2'"
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage2'"
 		},
-		"SqlServer3_password": {
+		"AzureBlobStorage3_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'password' of 'SqlServer3'"
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage3'"
 		},
-		"SqlServer4_password": {
+		"AzureBlobStorage4_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'password' of 'SqlServer4'"
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage4'"
 		},
-		"SqlServer5_password": {
+		"AzureDataLakeStorage46_accountKey": {
 			"type": "secureString",
-			"metadata": "Secure string for 'password' of 'SqlServer5'"
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage46'"
 		},
-		"SqlServer6_password": {
+		"DS_SQLSERVER_password": {
 			"type": "secureString",
-			"metadata": "Secure string for 'password' of 'SqlServer6'"
+			"metadata": "Secure string for 'password' of 'DS_SQLSERVER'"
 		},
-		"SqlServer7_password": {
+		"LS_SQLERVER_DB_password": {
 			"type": "secureString",
-			"metadata": "Secure string for 'password' of 'SqlServer7'"
+			"metadata": "Secure string for 'password' of 'LS_SQLERVER_DB'"
 		},
-		"SqlServer8_password": {
+		"LS_SQLSERVER_password": {
 			"type": "secureString",
-			"metadata": "Secure string for 'password' of 'SqlServer8'"
+			"metadata": "Secure string for 'password' of 'LS_SQLSERVER'"
 		},
-		"SqlServer9_password": {
+		"LS_SQLSERVERDUN_password": {
 			"type": "secureString",
-			"metadata": "Secure string for 'password' of 'SqlServer9'"
+			"metadata": "Secure string for 'password' of 'LS_SQLSERVERDUN'"
 		},
-		"SqlServer11_properties_typeProperties_server": {
+		"LS_SQL_ADLS_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'LS_SQL_ADLS'"
+		},
+		"LS_SQL_DATA_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'LS_SQL_DATA'"
+		},
+		"LS_SqlServerTable_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'LS_SqlServerTable'"
+		},
+		"ls_emptydatacheckcsv_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://adlsdevbulkload.dfs.core.windows.net/"
+		},
+		"ls_multifiles_csv_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://adlsdevbank001.dfs.core.windows.net"
+		},
+		"AzureDataLakeStorage46_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://adlsdevbulkload.dfs.core.windows.net/"
+		},
+		"DS_SQLSERVER_properties_typeProperties_server": {
 			"type": "string",
 			"defaultValue": "LAPTOP-MHJP2LVG\\SQLEXPRESS"
 		},
-		"SqlServer11_properties_typeProperties_database": {
-			"type": "string",
-			"defaultValue": "Visionboardmigration"
-		},
-		"SqlServer11_properties_typeProperties_userName": {
-			"type": "string",
-			"defaultValue": "visionboard"
-		},
-		"SqlServer12_properties_typeProperties_server": {
-			"type": "string",
-			"defaultValue": "LAPTOP-MHJP2LVG\\SQLEXPRESS"
-		},
-		"SqlServer12_properties_typeProperties_database": {
+		"DS_SQLSERVER_properties_typeProperties_database": {
 			"type": "string",
 			"defaultValue": "AdventureWorks2019"
 		},
-		"SqlServer12_properties_typeProperties_userName": {
+		"DS_SQLSERVER_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "visionboard"
 		},
-		"SqlServer2_properties_typeProperties_server": {
+		"LS_SQLERVER_DB_properties_typeProperties_server": {
 			"type": "string",
 			"defaultValue": "LAPTOP-MHJP2LVG\\SQLEXPRESS"
 		},
-		"SqlServer2_properties_typeProperties_database": {
+		"LS_SQLERVER_DB_properties_typeProperties_database": {
 			"type": "string",
-			"defaultValue": "customerdb"
+			"defaultValue": "AdventureWorks2019"
 		},
-		"SqlServer2_properties_typeProperties_userName": {
+		"LS_SQLERVER_DB_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "visionboard"
 		},
-		"SqlServer3_properties_typeProperties_server": {
+		"LS_SQLSERVER_properties_typeProperties_server": {
 			"type": "string",
 			"defaultValue": "LAPTOP-MHJP2LVG\\SQLEXPRESS"
 		},
-		"SqlServer3_properties_typeProperties_database": {
-			"type": "string",
-			"defaultValue": "customerdb"
-		},
-		"SqlServer3_properties_typeProperties_userName": {
-			"type": "string",
-			"defaultValue": "visionboard"
-		},
-		"SqlServer4_properties_typeProperties_server": {
-			"type": "string",
-			"defaultValue": "LAPTOP-MHJP2LVG\\SQLEXPRESS"
-		},
-		"SqlServer4_properties_typeProperties_database": {
+		"LS_SQLSERVER_properties_typeProperties_database": {
 			"type": "string",
 			"defaultValue": "customerdb3"
 		},
-		"SqlServer4_properties_typeProperties_userName": {
+		"LS_SQLSERVER_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "visionboard"
 		},
-		"SqlServer5_properties_typeProperties_server": {
+		"LS_SQLSERVERDUN_properties_typeProperties_server": {
 			"type": "string",
 			"defaultValue": "LAPTOP-MHJP2LVG\\SQLEXPRESS"
 		},
-		"SqlServer5_properties_typeProperties_database": {
+		"LS_SQLSERVERDUN_properties_typeProperties_database": {
 			"type": "string",
 			"defaultValue": "AdventureWorks2019"
 		},
-		"SqlServer5_properties_typeProperties_userName": {
+		"LS_SQLSERVERDUN_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "visionboard"
 		},
-		"SqlServer6_properties_typeProperties_server": {
+		"LS_SQL_ADLS_properties_typeProperties_server": {
 			"type": "string",
 			"defaultValue": "LAPTOP-MHJP2LVG\\SQLEXPRESS"
 		},
-		"SqlServer6_properties_typeProperties_database": {
+		"LS_SQL_ADLS_properties_typeProperties_database": {
 			"type": "string",
-			"defaultValue": "Salesdata"
+			"defaultValue": "AdventureWorks2019"
 		},
-		"SqlServer6_properties_typeProperties_userName": {
+		"LS_SQL_ADLS_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "visionboard"
 		},
-		"SqlServer7_properties_typeProperties_server": {
+		"LS_SQL_DATA_properties_typeProperties_server": {
 			"type": "string",
 			"defaultValue": "LAPTOP-MHJP2LVG\\SQLEXPRESS"
 		},
-		"SqlServer7_properties_typeProperties_database": {
+		"LS_SQL_DATA_properties_typeProperties_database": {
 			"type": "string",
-			"defaultValue": "master"
+			"defaultValue": "customerdb3"
 		},
-		"SqlServer7_properties_typeProperties_userName": {
+		"LS_SQL_DATA_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "visionboard"
 		},
-		"SqlServer8_properties_typeProperties_server": {
+		"LS_SqlServerTable_properties_typeProperties_server": {
 			"type": "string",
 			"defaultValue": "LAPTOP-MHJP2LVG\\SQLEXPRESS"
 		},
-		"SqlServer8_properties_typeProperties_database": {
+		"LS_SqlServerTable_properties_typeProperties_database": {
 			"type": "string",
-			"defaultValue": "VisionBoard"
+			"defaultValue": "AdventureWorks2019"
 		},
-		"SqlServer8_properties_typeProperties_userName": {
+		"LS_SqlServerTable_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "visionboard"
-		},
-		"SqlServer9_properties_typeProperties_server": {
-			"type": "string",
-			"defaultValue": "LAPTOP-MHJP2LVG\\SQLEXPRESS"
-		},
-		"SqlServer9_properties_typeProperties_database": {
-			"type": "string",
-			"defaultValue": "Visionboard"
-		},
-		"SqlServer9_properties_typeProperties_userName": {
-			"type": "string",
-			"defaultValue": "visionboard"
-		},
-		"EVENTTRIGGER_MANUALCSV_properties_typeProperties_scope": {
-			"type": "string",
-			"defaultValue": "/subscriptions/ebf9de76-97ab-4029-b09a-0e5b73edc314/resourceGroups/rgdevdemodata/providers/Microsoft.Storage/storageAccounts/adlsdevbulkload"
 		}
 	},
 	"variables": {
@@ -177,22 +161,214 @@
 	},
 	"resources": [
 		{
-			"name": "[concat(parameters('factoryName'), '/SqlServer11')]",
+			"name": "[concat(parameters('factoryName'), '/ls_emptydatacheckcsv')]",
+			"type": "Microsoft.DataFactory/factories/linkedServices",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"annotations": [],
+				"type": "AzureBlobFS",
+				"typeProperties": {
+					"url": "[parameters('ls_emptydatacheckcsv_properties_typeProperties_url')]",
+					"accountKey": {
+						"type": "SecureString",
+						"value": "[parameters('ls_emptydatacheckcsv_accountKey')]"
+					}
+				}
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/ls_multifiles_csv')]",
+			"type": "Microsoft.DataFactory/factories/linkedServices",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"annotations": [],
+				"type": "AzureBlobFS",
+				"typeProperties": {
+					"url": "[parameters('ls_multifiles_csv_properties_typeProperties_url')]",
+					"accountKey": {
+						"type": "SecureString",
+						"value": "[parameters('ls_multifiles_csv_accountKey')]"
+					}
+				}
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/integrationRuntime1')]",
+			"type": "Microsoft.DataFactory/factories/integrationRuntimes",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"type": "SelfHosted",
+				"typeProperties": {}
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/integrationRuntime2')]",
+			"type": "Microsoft.DataFactory/factories/integrationRuntimes",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"type": "SelfHosted",
+				"typeProperties": {}
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/integrationRuntime3')]",
+			"type": "Microsoft.DataFactory/factories/integrationRuntimes",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"type": "SelfHosted",
+				"typeProperties": {}
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/integrationRuntimes')]",
+			"type": "Microsoft.DataFactory/factories/integrationRuntimes",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"type": "SelfHosted",
+				"description": "sql to cloud",
+				"typeProperties": {}
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/selfhostedintegrationRuntime2')]",
+			"type": "Microsoft.DataFactory/factories/integrationRuntimes",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"type": "SelfHosted",
+				"typeProperties": {}
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/AzureBlobStorage2')]",
+			"type": "Microsoft.DataFactory/factories/linkedServices",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"annotations": [],
+				"type": "AzureBlobStorage",
+				"typeProperties": {
+					"connectionString": "[parameters('AzureBlobStorage2_connectionString')]"
+				}
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/AzureBlobStorage3')]",
+			"type": "Microsoft.DataFactory/factories/linkedServices",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"annotations": [],
+				"type": "AzureBlobStorage",
+				"typeProperties": {
+					"connectionString": "[parameters('AzureBlobStorage3_connectionString')]"
+				}
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/AzureBlobStorage4')]",
+			"type": "Microsoft.DataFactory/factories/linkedServices",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"annotations": [],
+				"type": "AzureBlobStorage",
+				"typeProperties": {
+					"connectionString": "[parameters('AzureBlobStorage4_connectionString')]"
+				}
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/AzureDataLakeStorage46')]",
+			"type": "Microsoft.DataFactory/factories/linkedServices",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"annotations": [],
+				"type": "AzureBlobFS",
+				"typeProperties": {
+					"url": "[parameters('AzureDataLakeStorage46_properties_typeProperties_url')]",
+					"accountKey": {
+						"type": "SecureString",
+						"value": "[parameters('AzureDataLakeStorage46_accountKey')]"
+					}
+				}
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/DelimitedText1')]",
+			"type": "Microsoft.DataFactory/factories/datasets",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"linkedServiceName": {
+					"referenceName": "AzureDataLakeStorage21",
+					"type": "LinkedServiceReference"
+				},
+				"annotations": [],
+				"type": "DelimitedText",
+				"typeProperties": {
+					"location": {
+						"type": "AzureBlobFSLocation",
+						"folderPath": "data",
+						"fileSystem": "eventtrigercsv"
+					},
+					"columnDelimiter": ",",
+					"escapeChar": "\\",
+					"firstRowAsHeader": true,
+					"quoteChar": "\""
+				},
+				"schema": []
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/DelimitedText2')]",
+			"type": "Microsoft.DataFactory/factories/datasets",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"linkedServiceName": {
+					"referenceName": "AzureDataLakeStorage23",
+					"type": "LinkedServiceReference"
+				},
+				"annotations": [],
+				"type": "DelimitedText",
+				"typeProperties": {
+					"location": {
+						"type": "AzureBlobFSLocation",
+						"fileSystem": "eventoutput"
+					},
+					"columnDelimiter": ",",
+					"escapeChar": "\\",
+					"firstRowAsHeader": true,
+					"quoteChar": "\""
+				},
+				"schema": []
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/DS_SQLSERVER')]",
 			"type": "Microsoft.DataFactory/factories/linkedServices",
 			"apiVersion": "2018-06-01",
 			"properties": {
 				"annotations": [],
 				"type": "SqlServer",
 				"typeProperties": {
-					"server": "[parameters('SqlServer11_properties_typeProperties_server')]",
-					"database": "[parameters('SqlServer11_properties_typeProperties_database')]",
+					"server": "[parameters('DS_SQLSERVER_properties_typeProperties_server')]",
+					"database": "[parameters('DS_SQLSERVER_properties_typeProperties_database')]",
 					"encrypt": "optional",
 					"trustServerCertificate": false,
 					"authenticationType": "SQL",
-					"userName": "[parameters('SqlServer11_properties_typeProperties_userName')]",
+					"userName": "[parameters('DS_SQLSERVER_properties_typeProperties_userName')]",
 					"password": {
 						"type": "SecureString",
-						"value": "[parameters('SqlServer11_password')]"
+						"value": "[parameters('DS_SQLSERVER_password')]"
 					}
 				},
 				"connectVia": {
@@ -200,25 +376,27 @@
 					"type": "IntegrationRuntimeReference"
 				}
 			},
-			"dependsOn": []
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/integrationRuntimes/integrationRuntime1')]"
+			]
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/SqlServer12')]",
+			"name": "[concat(parameters('factoryName'), '/LS_SQLERVER_DB')]",
 			"type": "Microsoft.DataFactory/factories/linkedServices",
 			"apiVersion": "2018-06-01",
 			"properties": {
 				"annotations": [],
 				"type": "SqlServer",
 				"typeProperties": {
-					"server": "[parameters('SqlServer12_properties_typeProperties_server')]",
-					"database": "[parameters('SqlServer12_properties_typeProperties_database')]",
+					"server": "[parameters('LS_SQLERVER_DB_properties_typeProperties_server')]",
+					"database": "[parameters('LS_SQLERVER_DB_properties_typeProperties_database')]",
 					"encrypt": "optional",
 					"trustServerCertificate": false,
 					"authenticationType": "SQL",
-					"userName": "[parameters('SqlServer12_properties_typeProperties_userName')]",
+					"userName": "[parameters('LS_SQLERVER_DB_properties_typeProperties_userName')]",
 					"password": {
 						"type": "SecureString",
-						"value": "[parameters('SqlServer12_password')]"
+						"value": "[parameters('LS_SQLERVER_DB_password')]"
 					}
 				},
 				"connectVia": {
@@ -226,25 +404,27 @@
 					"type": "IntegrationRuntimeReference"
 				}
 			},
-			"dependsOn": []
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/integrationRuntimes/integrationRuntime1')]"
+			]
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/SqlServer2')]",
+			"name": "[concat(parameters('factoryName'), '/LS_SQLSERVER')]",
 			"type": "Microsoft.DataFactory/factories/linkedServices",
 			"apiVersion": "2018-06-01",
 			"properties": {
 				"annotations": [],
 				"type": "SqlServer",
 				"typeProperties": {
-					"server": "[parameters('SqlServer2_properties_typeProperties_server')]",
-					"database": "[parameters('SqlServer2_properties_typeProperties_database')]",
+					"server": "[parameters('LS_SQLSERVER_properties_typeProperties_server')]",
+					"database": "[parameters('LS_SQLSERVER_properties_typeProperties_database')]",
 					"encrypt": "optional",
 					"trustServerCertificate": false,
 					"authenticationType": "SQL",
-					"userName": "[parameters('SqlServer2_properties_typeProperties_userName')]",
+					"userName": "[parameters('LS_SQLSERVER_properties_typeProperties_userName')]",
 					"password": {
 						"type": "SecureString",
-						"value": "[parameters('SqlServer2_password')]"
+						"value": "[parameters('LS_SQLSERVER_password')]"
 					}
 				},
 				"connectVia": {
@@ -252,25 +432,27 @@
 					"type": "IntegrationRuntimeReference"
 				}
 			},
-			"dependsOn": []
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/integrationRuntimes/integrationRuntime1')]"
+			]
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/SqlServer3')]",
+			"name": "[concat(parameters('factoryName'), '/LS_SQLSERVERDUN')]",
 			"type": "Microsoft.DataFactory/factories/linkedServices",
 			"apiVersion": "2018-06-01",
 			"properties": {
 				"annotations": [],
 				"type": "SqlServer",
 				"typeProperties": {
-					"server": "[parameters('SqlServer3_properties_typeProperties_server')]",
-					"database": "[parameters('SqlServer3_properties_typeProperties_database')]",
+					"server": "[parameters('LS_SQLSERVERDUN_properties_typeProperties_server')]",
+					"database": "[parameters('LS_SQLSERVERDUN_properties_typeProperties_database')]",
 					"encrypt": "optional",
 					"trustServerCertificate": false,
 					"authenticationType": "SQL",
-					"userName": "[parameters('SqlServer3_properties_typeProperties_userName')]",
+					"userName": "[parameters('LS_SQLSERVERDUN_properties_typeProperties_userName')]",
 					"password": {
 						"type": "SecureString",
-						"value": "[parameters('SqlServer3_password')]"
+						"value": "[parameters('LS_SQLSERVERDUN_password')]"
 					}
 				},
 				"connectVia": {
@@ -278,25 +460,27 @@
 					"type": "IntegrationRuntimeReference"
 				}
 			},
-			"dependsOn": []
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/integrationRuntimes/integrationRuntime1')]"
+			]
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/SqlServer4')]",
+			"name": "[concat(parameters('factoryName'), '/LS_SQL_ADLS')]",
 			"type": "Microsoft.DataFactory/factories/linkedServices",
 			"apiVersion": "2018-06-01",
 			"properties": {
 				"annotations": [],
 				"type": "SqlServer",
 				"typeProperties": {
-					"server": "[parameters('SqlServer4_properties_typeProperties_server')]",
-					"database": "[parameters('SqlServer4_properties_typeProperties_database')]",
+					"server": "[parameters('LS_SQL_ADLS_properties_typeProperties_server')]",
+					"database": "[parameters('LS_SQL_ADLS_properties_typeProperties_database')]",
 					"encrypt": "optional",
 					"trustServerCertificate": false,
 					"authenticationType": "SQL",
-					"userName": "[parameters('SqlServer4_properties_typeProperties_userName')]",
+					"userName": "[parameters('LS_SQL_ADLS_properties_typeProperties_userName')]",
 					"password": {
 						"type": "SecureString",
-						"value": "[parameters('SqlServer4_password')]"
+						"value": "[parameters('LS_SQL_ADLS_password')]"
 					}
 				},
 				"connectVia": {
@@ -304,25 +488,27 @@
 					"type": "IntegrationRuntimeReference"
 				}
 			},
-			"dependsOn": []
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/integrationRuntimes/integrationRuntime1')]"
+			]
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/SqlServer5')]",
+			"name": "[concat(parameters('factoryName'), '/LS_SQL_DATA')]",
 			"type": "Microsoft.DataFactory/factories/linkedServices",
 			"apiVersion": "2018-06-01",
 			"properties": {
 				"annotations": [],
 				"type": "SqlServer",
 				"typeProperties": {
-					"server": "[parameters('SqlServer5_properties_typeProperties_server')]",
-					"database": "[parameters('SqlServer5_properties_typeProperties_database')]",
+					"server": "[parameters('LS_SQL_DATA_properties_typeProperties_server')]",
+					"database": "[parameters('LS_SQL_DATA_properties_typeProperties_database')]",
 					"encrypt": "optional",
 					"trustServerCertificate": false,
 					"authenticationType": "SQL",
-					"userName": "[parameters('SqlServer5_properties_typeProperties_userName')]",
+					"userName": "[parameters('LS_SQL_DATA_properties_typeProperties_userName')]",
 					"password": {
 						"type": "SecureString",
-						"value": "[parameters('SqlServer5_password')]"
+						"value": "[parameters('LS_SQL_DATA_password')]"
 					}
 				},
 				"connectVia": {
@@ -330,215 +516,37 @@
 					"type": "IntegrationRuntimeReference"
 				}
 			},
-			"dependsOn": []
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/integrationRuntimes/integrationRuntime1')]"
+			]
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/SqlServer6')]",
+			"name": "[concat(parameters('factoryName'), '/LS_SqlServerTable')]",
 			"type": "Microsoft.DataFactory/factories/linkedServices",
 			"apiVersion": "2018-06-01",
 			"properties": {
 				"annotations": [],
 				"type": "SqlServer",
 				"typeProperties": {
-					"server": "[parameters('SqlServer6_properties_typeProperties_server')]",
-					"database": "[parameters('SqlServer6_properties_typeProperties_database')]",
+					"server": "[parameters('LS_SqlServerTable_properties_typeProperties_server')]",
+					"database": "[parameters('LS_SqlServerTable_properties_typeProperties_database')]",
 					"encrypt": "optional",
 					"trustServerCertificate": false,
 					"authenticationType": "SQL",
-					"userName": "[parameters('SqlServer6_properties_typeProperties_userName')]",
+					"userName": "[parameters('LS_SqlServerTable_properties_typeProperties_userName')]",
 					"password": {
 						"type": "SecureString",
-						"value": "[parameters('SqlServer6_password')]"
+						"value": "[parameters('LS_SqlServerTable_password')]"
 					}
 				},
 				"connectVia": {
-					"referenceName": "integrationRuntime1",
+					"referenceName": "selfhostedintegrationRuntime2",
 					"type": "IntegrationRuntimeReference"
 				}
 			},
-			"dependsOn": []
-		},
-		{
-			"name": "[concat(parameters('factoryName'), '/SqlServer7')]",
-			"type": "Microsoft.DataFactory/factories/linkedServices",
-			"apiVersion": "2018-06-01",
-			"properties": {
-				"annotations": [],
-				"type": "SqlServer",
-				"typeProperties": {
-					"server": "[parameters('SqlServer7_properties_typeProperties_server')]",
-					"database": "[parameters('SqlServer7_properties_typeProperties_database')]",
-					"encrypt": "optional",
-					"trustServerCertificate": false,
-					"authenticationType": "SQL",
-					"userName": "[parameters('SqlServer7_properties_typeProperties_userName')]",
-					"password": {
-						"type": "SecureString",
-						"value": "[parameters('SqlServer7_password')]"
-					}
-				},
-				"connectVia": {
-					"referenceName": "integrationRuntime1",
-					"type": "IntegrationRuntimeReference"
-				}
-			},
-			"dependsOn": []
-		},
-		{
-			"name": "[concat(parameters('factoryName'), '/SqlServer8')]",
-			"type": "Microsoft.DataFactory/factories/linkedServices",
-			"apiVersion": "2018-06-01",
-			"properties": {
-				"annotations": [],
-				"type": "SqlServer",
-				"typeProperties": {
-					"server": "[parameters('SqlServer8_properties_typeProperties_server')]",
-					"database": "[parameters('SqlServer8_properties_typeProperties_database')]",
-					"encrypt": "optional",
-					"trustServerCertificate": false,
-					"authenticationType": "SQL",
-					"userName": "[parameters('SqlServer8_properties_typeProperties_userName')]",
-					"password": {
-						"type": "SecureString",
-						"value": "[parameters('SqlServer8_password')]"
-					}
-				},
-				"connectVia": {
-					"referenceName": "integrationRuntime1",
-					"type": "IntegrationRuntimeReference"
-				}
-			},
-			"dependsOn": []
-		},
-		{
-			"name": "[concat(parameters('factoryName'), '/SqlServer9')]",
-			"type": "Microsoft.DataFactory/factories/linkedServices",
-			"apiVersion": "2018-06-01",
-			"properties": {
-				"annotations": [],
-				"type": "SqlServer",
-				"typeProperties": {
-					"server": "[parameters('SqlServer9_properties_typeProperties_server')]",
-					"database": "[parameters('SqlServer9_properties_typeProperties_database')]",
-					"encrypt": "optional",
-					"trustServerCertificate": false,
-					"authenticationType": "SQL",
-					"userName": "[parameters('SqlServer9_properties_typeProperties_userName')]",
-					"password": {
-						"type": "SecureString",
-						"value": "[parameters('SqlServer9_password')]"
-					}
-				},
-				"connectVia": {
-					"referenceName": "integrationRuntime1",
-					"type": "IntegrationRuntimeReference"
-				}
-			},
-			"dependsOn": []
-		},
-		{
-			"name": "[concat(parameters('factoryName'), '/EVENTTRIGGER_MANUALCSV')]",
-			"type": "Microsoft.DataFactory/factories/triggers",
-			"apiVersion": "2018-06-01",
-			"properties": {
-				"annotations": [],
-				"runtimeState": "Stopped",
-				"pipelines": [
-					{
-						"pipelineReference": {
-							"referenceName": "pipeline2",
-							"type": "PipelineReference"
-						},
-						"parameters": {}
-					}
-				],
-				"type": "BlobEventsTrigger",
-				"typeProperties": {
-					"blobPathBeginsWith": "/eventtrigercsv/blobs/data",
-					"blobPathEndsWith": ".csv",
-					"ignoreEmptyBlobs": true,
-					"scope": "[parameters('EVENTTRIGGER_MANUALCSV_properties_typeProperties_scope')]",
-					"events": [
-						"Microsoft.Storage.BlobCreated"
-					]
-				}
-			},
-			"dependsOn": []
-		},
-		{
-			"name": "[concat(parameters('factoryName'), '/pipeline3')]",
-			"type": "Microsoft.DataFactory/factories/pipelines",
-			"apiVersion": "2018-06-01",
-			"properties": {
-				"activities": [
-					{
-						"name": "Copy data1",
-						"type": "Copy",
-						"dependsOn": [],
-						"policy": {
-							"timeout": "0.12:00:00",
-							"retry": 0,
-							"retryIntervalInSeconds": 30,
-							"secureOutput": false,
-							"secureInput": false
-						},
-						"userProperties": [],
-						"typeProperties": {
-							"source": {
-								"type": "DelimitedTextSource",
-								"storeSettings": {
-									"type": "AzureBlobFSReadSettings",
-									"recursive": true,
-									"wildcardFileName": "*",
-									"enablePartitionDiscovery": false
-								},
-								"formatSettings": {
-									"type": "DelimitedTextReadSettings"
-								}
-							},
-							"sink": {
-								"type": "DelimitedTextSink",
-								"storeSettings": {
-									"type": "AzureBlobFSWriteSettings"
-								},
-								"formatSettings": {
-									"type": "DelimitedTextWriteSettings",
-									"quoteAllText": true,
-									"fileExtension": ".txt"
-								}
-							},
-							"enableStaging": false,
-							"translator": {
-								"type": "TabularTranslator",
-								"typeConversion": true,
-								"typeConversionSettings": {
-									"allowDataTruncation": true,
-									"treatBooleanAsNumber": false
-								}
-							}
-						},
-						"inputs": [
-							{
-								"referenceName": "DelimitedText1",
-								"type": "DatasetReference",
-								"parameters": {}
-							}
-						],
-						"outputs": [
-							{
-								"referenceName": "DelimitedText2",
-								"type": "DatasetReference",
-								"parameters": {}
-							}
-						]
-					}
-				],
-				"policy": {
-					"elapsedTimeMetric": {}
-				},
-				"annotations": []
-			},
-			"dependsOn": []
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/integrationRuntimes/selfhostedintegrationRuntime2')]"
+			]
 		}
 	]
 }
