@@ -1,0 +1,22 @@
+{
+	"name": "DS_EVENTFILES",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_EVENTFILES",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "eventcontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
