@@ -8,6 +8,18 @@
 		"AzureBlobStorage1_connectionString": {
 			"value": ""
 		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage3_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage4_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage5_connectionString": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_accountKey": {
 			"value": ""
 		},
@@ -128,6 +140,18 @@
 		"AzureDataLakeStorage45_accountKey": {
 			"value": ""
 		},
+		"AzureDataLakeStorage46_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage47_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage48_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage49_accountKey": {
+			"value": ""
+		},
 		"AzureDataLakeStorage5_accountKey": {
 			"value": ""
 		},
@@ -161,7 +185,16 @@
 		"LS_BULKCSV_accountKey": {
 			"value": ""
 		},
+		"LS_BULKOUTPUT_accountKey": {
+			"value": ""
+		},
+		"LS_BULK_PARQUET_accountKey": {
+			"value": ""
+		},
 		"LS_CSVADLSMOVEMENT_accountKey": {
+			"value": ""
+		},
+		"LS_CSVBULK_accountKey": {
 			"value": ""
 		},
 		"LS_CSV_RECORD_accountKey": {
@@ -246,30 +279,6 @@
 			"value": ""
 		},
 		"ls_multifiles_csv_accountKey": {
-			"value": ""
-		},
-		"AzureBlobStorage2_connectionString": {
-			"value": ""
-		},
-		"AzureBlobStorage3_connectionString": {
-			"value": ""
-		},
-		"AzureBlobStorage4_connectionString": {
-			"value": ""
-		},
-		"AzureDataLakeStorage46_accountKey": {
-			"value": ""
-		},
-		"AzureDataLakeStorage47_accountKey": {
-			"value": ""
-		},
-		"AzureDataLakeStorage48_accountKey": {
-			"value": ""
-		},
-		"AzureDataLakeStorage49_accountKey": {
-			"value": ""
-		},
-		"AzureBlobStorage5_connectionString": {
 			"value": ""
 		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
@@ -392,6 +401,18 @@
 		"AzureDataLakeStorage45_properties_typeProperties_url": {
 			"value": "https://adlsdevbulkload.dfs.core.windows.net/"
 		},
+		"AzureDataLakeStorage46_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkload.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage47_properties_typeProperties_url": {
+			"value": "https://adlsbulkupload.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage48_properties_typeProperties_url": {
+			"value": "https://adlsbulkupload.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage49_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkload.dfs.core.windows.net/"
+		},
 		"AzureDataLakeStorage5_properties_typeProperties_url": {
 			"value": "https://adlsbulkupload.dfs.core.windows.net/"
 		},
@@ -425,8 +446,17 @@
 		"LS_BULKCSV_properties_typeProperties_url": {
 			"value": "https://adlsdevbank001.dfs.core.windows.net/"
 		},
+		"LS_BULKOUTPUT_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvouttrigger.dfs.core.windows.net/"
+		},
+		"LS_BULK_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsbulkupload.dfs.core.windows.net/"
+		},
 		"LS_CSVADLSMOVEMENT_properties_typeProperties_url": {
 			"value": "https://adlsdevbulkload.dfs.core.windows.net/"
+		},
+		"LS_CSVBULK_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvtrigger.dfs.core.windows.net/"
 		},
 		"LS_CSV_RECORD_properties_typeProperties_url": {
 			"value": "https://adlsdevbulkload.dfs.core.windows.net/"
@@ -641,20 +671,8 @@
 		"EVENTTRIGGER_MANUALCSV_properties_typeProperties_scope": {
 			"value": "/subscriptions/ebf9de76-97ab-4029-b09a-0e5b73edc314/resourceGroups/rgdevdemodata/providers/Microsoft.Storage/storageAccounts/adlsdevbulkload"
 		},
-		"AzureDataLakeStorage46_properties_typeProperties_url": {
-			"value": "https://adlsdevbulkload.dfs.core.windows.net/"
-		},
 		"trigger1_properties_typeProperties_scope": {
 			"value": "/subscriptions/ebf9de76-97ab-4029-b09a-0e5b73edc314/resourceGroups/rgdevdemodata/providers/Microsoft.Storage/storageAccounts/eventstorage0099"
-		},
-		"AzureDataLakeStorage47_properties_typeProperties_url": {
-			"value": "https://adlsbulkupload.dfs.core.windows.net/"
-		},
-		"AzureDataLakeStorage48_properties_typeProperties_url": {
-			"value": "https://adlsbulkupload.dfs.core.windows.net/"
-		},
-		"AzureDataLakeStorage49_properties_typeProperties_url": {
-			"value": "https://adlsdevbulkload.dfs.core.windows.net/"
 		}
 	}
 }
