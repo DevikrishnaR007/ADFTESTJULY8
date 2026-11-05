@@ -281,6 +281,12 @@
 		"ls_multifiles_csv_accountKey": {
 			"value": ""
 		},
+		"LS_EVENTFILES_accountKey": {
+			"value": ""
+		},
+		"LS_MANUALFILE_PARQUET_accountKey": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://adlsdevbulkload.dfs.core.windows.net/"
 		},
@@ -673,6 +679,15 @@
 		},
 		"trigger1_properties_typeProperties_scope": {
 			"value": "/subscriptions/ebf9de76-97ab-4029-b09a-0e5b73edc314/resourceGroups/rgdevdemodata/providers/Microsoft.Storage/storageAccounts/eventstorage0099"
+		},
+		"LS_EVENTFILES_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvtrigger.dfs.core.windows.net/"
+		},
+		"LS_MANUALFILE_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevcsvouttrigger.dfs.core.windows.net/"
+		},
+		"EVENTTRIGER_MANUALFILES_properties_typeProperties_scope": {
+			"value": "/subscriptions/ebf9de76-97ab-4029-b09a-0e5b73edc314/resourceGroups/rgdevdemodata/providers/Microsoft.Storage/storageAccounts/adlsdevcsvtrigger"
 		},
 		"containerUri": {
 			"value": ""

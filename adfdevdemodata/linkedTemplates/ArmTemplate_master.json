@@ -375,6 +375,14 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'ls_multifiles_csv'"
 		},
+		"LS_EVENTFILES_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'LS_EVENTFILES'"
+		},
+		"LS_MANUALFILE_PARQUET_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'LS_MANUALFILE_PARQUET'"
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://adlsdevbulkload.dfs.core.windows.net/"
@@ -899,6 +907,18 @@
 			"type": "string",
 			"defaultValue": "/subscriptions/ebf9de76-97ab-4029-b09a-0e5b73edc314/resourceGroups/rgdevdemodata/providers/Microsoft.Storage/storageAccounts/eventstorage0099"
 		},
+		"LS_EVENTFILES_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://adlsdevcsvtrigger.dfs.core.windows.net/"
+		},
+		"LS_MANUALFILE_PARQUET_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://adlsdevcsvouttrigger.dfs.core.windows.net/"
+		},
+		"EVENTTRIGER_MANUALFILES_properties_typeProperties_scope": {
+			"type": "string",
+			"defaultValue": "/subscriptions/ebf9de76-97ab-4029-b09a-0e5b73edc314/resourceGroups/rgdevdemodata/providers/Microsoft.Storage/storageAccounts/adlsdevcsvtrigger"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -1353,6 +1373,12 @@
 					"ls_multifiles_csv_accountKey": {
 						"value": "[parameters('ls_multifiles_csv_accountKey')]"
 					},
+					"LS_EVENTFILES_accountKey": {
+						"value": "[parameters('LS_EVENTFILES_accountKey')]"
+					},
+					"LS_MANUALFILE_PARQUET_accountKey": {
+						"value": "[parameters('LS_MANUALFILE_PARQUET_accountKey')]"
+					},
 					"LS_BULKOUTPUT_properties_typeProperties_url": {
 						"value": "[parameters('LS_BULKOUTPUT_properties_typeProperties_url')]"
 					},
@@ -1394,6 +1420,12 @@
 					},
 					"ls_multifiles_csv_properties_typeProperties_url": {
 						"value": "[parameters('ls_multifiles_csv_properties_typeProperties_url')]"
+					},
+					"LS_EVENTFILES_properties_typeProperties_url": {
+						"value": "[parameters('LS_EVENTFILES_properties_typeProperties_url')]"
+					},
+					"LS_MANUALFILE_PARQUET_properties_typeProperties_url": {
+						"value": "[parameters('LS_MANUALFILE_PARQUET_properties_typeProperties_url')]"
 					}
 				}
 			},
@@ -1447,12 +1479,6 @@
 					},
 					"SqlServer12_password": {
 						"value": "[parameters('SqlServer12_password')]"
-					},
-					"SqlServer13_password": {
-						"value": "[parameters('SqlServer13_password')]"
-					},
-					"SqlServer14_password": {
-						"value": "[parameters('SqlServer14_password')]"
 					},
 					"DS_SQLSERVER_properties_typeProperties_server": {
 						"value": "[parameters('DS_SQLSERVER_properties_typeProperties_server')]"
@@ -1552,24 +1578,6 @@
 					},
 					"SqlServer12_properties_typeProperties_userName": {
 						"value": "[parameters('SqlServer12_properties_typeProperties_userName')]"
-					},
-					"SqlServer13_properties_typeProperties_server": {
-						"value": "[parameters('SqlServer13_properties_typeProperties_server')]"
-					},
-					"SqlServer13_properties_typeProperties_database": {
-						"value": "[parameters('SqlServer13_properties_typeProperties_database')]"
-					},
-					"SqlServer13_properties_typeProperties_userName": {
-						"value": "[parameters('SqlServer13_properties_typeProperties_userName')]"
-					},
-					"SqlServer14_properties_typeProperties_server": {
-						"value": "[parameters('SqlServer14_properties_typeProperties_server')]"
-					},
-					"SqlServer14_properties_typeProperties_database": {
-						"value": "[parameters('SqlServer14_properties_typeProperties_database')]"
-					},
-					"SqlServer14_properties_typeProperties_userName": {
-						"value": "[parameters('SqlServer14_properties_typeProperties_userName')]"
 					}
 				}
 			},
@@ -1590,6 +1598,12 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"SqlServer13_password": {
+						"value": "[parameters('SqlServer13_password')]"
+					},
+					"SqlServer14_password": {
+						"value": "[parameters('SqlServer14_password')]"
 					},
 					"SqlServer2_password": {
 						"value": "[parameters('SqlServer2_password')]"
@@ -1614,6 +1628,24 @@
 					},
 					"SqlServer9_password": {
 						"value": "[parameters('SqlServer9_password')]"
+					},
+					"SqlServer13_properties_typeProperties_server": {
+						"value": "[parameters('SqlServer13_properties_typeProperties_server')]"
+					},
+					"SqlServer13_properties_typeProperties_database": {
+						"value": "[parameters('SqlServer13_properties_typeProperties_database')]"
+					},
+					"SqlServer13_properties_typeProperties_userName": {
+						"value": "[parameters('SqlServer13_properties_typeProperties_userName')]"
+					},
+					"SqlServer14_properties_typeProperties_server": {
+						"value": "[parameters('SqlServer14_properties_typeProperties_server')]"
+					},
+					"SqlServer14_properties_typeProperties_database": {
+						"value": "[parameters('SqlServer14_properties_typeProperties_database')]"
+					},
+					"SqlServer14_properties_typeProperties_userName": {
+						"value": "[parameters('SqlServer14_properties_typeProperties_userName')]"
 					},
 					"SqlServer2_properties_typeProperties_server": {
 						"value": "[parameters('SqlServer2_properties_typeProperties_server')]"
@@ -1697,6 +1729,29 @@
 			},
 			"dependsOn": [
 				"[resourceId('Microsoft.Resources/deployments', 'adfdevdemodata_ArmTemplate_4')]"
+			]
+		},
+		{
+			"name": "adfdevdemodata_ArmTemplate_6",
+			"type": "Microsoft.Resources/deployments",
+			"apiVersion": "2024-03-01",
+			"properties": {
+				"mode": "incremental",
+				"templateLink": {
+					"uri": "[concat(parameters('containerUri'), '/ArmTemplate_6.json', parameters('containerSasToken'))]",
+					"contentVersion": "1.0.0.0"
+				},
+				"parameters": {
+					"factoryName": {
+						"value": "[parameters('factoryName')]"
+					},
+					"EVENTTRIGER_MANUALFILES_properties_typeProperties_scope": {
+						"value": "[parameters('EVENTTRIGER_MANUALFILES_properties_typeProperties_scope')]"
+					}
+				}
+			},
+			"dependsOn": [
+				"[resourceId('Microsoft.Resources/deployments', 'adfdevdemodata_ArmTemplate_5')]"
 			]
 		}
 	]

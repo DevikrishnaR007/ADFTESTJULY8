@@ -51,14 +51,6 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'SqlServer12'"
 		},
-		"SqlServer13_password": {
-			"type": "secureString",
-			"metadata": "Secure string for 'password' of 'SqlServer13'"
-		},
-		"SqlServer14_password": {
-			"type": "secureString",
-			"metadata": "Secure string for 'password' of 'SqlServer14'"
-		},
 		"DS_SQLSERVER_properties_typeProperties_server": {
 			"type": "string",
 			"defaultValue": "LAPTOP-MHJP2LVG\\SQLEXPRESS"
@@ -190,36 +182,55 @@
 		"SqlServer12_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "visionboard"
-		},
-		"SqlServer13_properties_typeProperties_server": {
-			"type": "string",
-			"defaultValue": "LAPTOP-MHJP2LVG\\SQLEXPRESS"
-		},
-		"SqlServer13_properties_typeProperties_database": {
-			"type": "string",
-			"defaultValue": "AdventureWorks2019"
-		},
-		"SqlServer13_properties_typeProperties_userName": {
-			"type": "string",
-			"defaultValue": "visionboard"
-		},
-		"SqlServer14_properties_typeProperties_server": {
-			"type": "string",
-			"defaultValue": "LAPTOP-MHJP2LVG\\SQLEXPRESS"
-		},
-		"SqlServer14_properties_typeProperties_database": {
-			"type": "string",
-			"defaultValue": "master"
-		},
-		"SqlServer14_properties_typeProperties_userName": {
-			"type": "string",
-			"defaultValue": "visionboard"
 		}
 	},
 	"variables": {
 		"factoryId": "[concat('Microsoft.DataFactory/factories/', parameters('factoryName'))]"
 	},
 	"resources": [
+		{
+			"name": "[concat(parameters('factoryName'), '/DS_BULKOUTPUT')]",
+			"type": "Microsoft.DataFactory/factories/datasets",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"linkedServiceName": {
+					"referenceName": "LS_BULKOUTPUT",
+					"type": "LinkedServiceReference"
+				},
+				"annotations": [],
+				"type": "Parquet",
+				"typeProperties": {
+					"location": {
+						"type": "AzureBlobFSLocation",
+						"fileSystem": "outputcontainer"
+					},
+					"compressionCodec": "snappy"
+				},
+				"schema": []
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/DS_BULK_PARQUET')]",
+			"type": "Microsoft.DataFactory/factories/datasets",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"linkedServiceName": {
+					"referenceName": "LS_BULK_PARQUET",
+					"type": "LinkedServiceReference"
+				},
+				"annotations": [],
+				"type": "Parquet",
+				"typeProperties": {
+					"location": {
+						"type": "AzureBlobFSLocation"
+					},
+					"compressionCodec": "snappy"
+				},
+				"schema": []
+			},
+			"dependsOn": []
+		},
 		{
 			"name": "[concat(parameters('factoryName'), '/DS_CSVBULK')]",
 			"type": "Microsoft.DataFactory/factories/datasets",
@@ -695,58 +706,6 @@
 					"password": {
 						"type": "SecureString",
 						"value": "[parameters('SqlServer12_password')]"
-					}
-				},
-				"connectVia": {
-					"referenceName": "integrationRuntime1",
-					"type": "IntegrationRuntimeReference"
-				}
-			},
-			"dependsOn": []
-		},
-		{
-			"name": "[concat(parameters('factoryName'), '/SqlServer13')]",
-			"type": "Microsoft.DataFactory/factories/linkedServices",
-			"apiVersion": "2018-06-01",
-			"properties": {
-				"annotations": [],
-				"type": "SqlServer",
-				"typeProperties": {
-					"server": "[parameters('SqlServer13_properties_typeProperties_server')]",
-					"database": "[parameters('SqlServer13_properties_typeProperties_database')]",
-					"encrypt": "optional",
-					"trustServerCertificate": false,
-					"authenticationType": "SQL",
-					"userName": "[parameters('SqlServer13_properties_typeProperties_userName')]",
-					"password": {
-						"type": "SecureString",
-						"value": "[parameters('SqlServer13_password')]"
-					}
-				},
-				"connectVia": {
-					"referenceName": "integrationRuntime1",
-					"type": "IntegrationRuntimeReference"
-				}
-			},
-			"dependsOn": []
-		},
-		{
-			"name": "[concat(parameters('factoryName'), '/SqlServer14')]",
-			"type": "Microsoft.DataFactory/factories/linkedServices",
-			"apiVersion": "2018-06-01",
-			"properties": {
-				"annotations": [],
-				"type": "SqlServer",
-				"typeProperties": {
-					"server": "[parameters('SqlServer14_properties_typeProperties_server')]",
-					"database": "[parameters('SqlServer14_properties_typeProperties_database')]",
-					"encrypt": "optional",
-					"trustServerCertificate": false,
-					"authenticationType": "SQL",
-					"userName": "[parameters('SqlServer14_properties_typeProperties_userName')]",
-					"password": {
-						"type": "SecureString",
-						"value": "[parameters('SqlServer14_password')]"
 					}
 				},
 				"connectVia": {
