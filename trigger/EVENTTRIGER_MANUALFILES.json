@@ -2,7 +2,7 @@
 	"name": "EVENTTRIGER_MANUALFILES",
 	"properties": {
 		"annotations": [],
-		"runtimeState": "Started",
+		"runtimeState": "Stopped",
 		"pipelines": [
 			{
 				"pipelineReference": {
